@@ -31,7 +31,7 @@ elif args['video'] != None:
 	path = f"to_detect/{args['video']}"
 else:
     print('[INFO] Enter Live feed mode! ')
-    print('[INFO] Press Q to exit Live feed mode!)
+    print('[INFO] Press Q to exit Live feed mode!')
 
 # laoding encodings and labels
 known_faces = np.load("assets/face_encoding.npy")

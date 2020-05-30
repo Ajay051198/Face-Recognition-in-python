@@ -9,8 +9,31 @@ This is done with the help of the face recognition and cv2 module
 - Run train.py, this trains the model and encodes the facial features of each person in a numpy array along with the labelling maping the images. \
 ```python train.py```
 
-- You are now ready to detect faces ! 
+<img src = "assets/encoding.jpg">
+
+<img src = "assets/completion.jpg">
+
+
+
+### You are now ready to detect faces ! 
+
 - To detect faces in images run the following command. ```python recogonize.py --image name_of_file.jpg```
 - To detect faces in video run the following command. ```python recogonize.py --video name_of_file.mp4```
 - To detect faces in video stream run the following command. ```python recogonize.py```
+
+---
+
+Results: 
+
+<img src="assets/result.png">
+
+<img src="assets/result2.png">
+
+---
+
+### Conclusion: 
+
+The two modules are very powerful tools and after being trained on a large enough dataset, this model could be very accurate. 
+
+Given one has a small dataset, one should look at other facial recognition options
 
