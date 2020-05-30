@@ -9,9 +9,9 @@ This is done with the help of the face recognition and cv2 module
 - Run train.py, this trains the model and encodes the facial features of each person in a numpy array along with the labelling maping the images. \
 ```python train.py```
 
-<img src = "assets/encoding.jpg">
+<img src = "assets/encoding.JPG">
 
-<img src = "assets/completion.jpg">
+<img src = "assets/completion.JPG">
 
 
 
